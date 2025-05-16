@@ -1,17 +1,15 @@
-# 🏛️ Sistema de Arquitetura – Gerenciamento de Projetos
+# 📦 Sistema de Cadastro de Produtos e Gerenciamento de Marcas
 
-Sistema web desenvolvido para arquitetos e escritórios de arquitetura que desejam **gerenciar seus projetos**, **exibir um portfólio organizado**, e **centralizar certificações e contatos** de forma elegante e funcional.
+Este é um sistema web desenvolvido para cadastrar e gerenciar produtos associados a marcas como **Amazon**, **Levi's**, **Lacoste** e **Shopify**. O sistema também oferece funcionalidades de **cadastro** e **autenticação de usuários**, permitindo que apenas usuários autorizados possam acessar e manipular os dados dos produtos.
 
 ---
 
 ## 🚀 Funcionalidades
 
-- Cadastro, visualização, edição e exclusão de **projetos de arquitetura**
-- Tela de **galeria** para navegação pública entre projetos
-- Seção dedicada para **certificados profissionais**
-- Página de **contato** com informações institucionais
-- Cadastro e **autenticação de usuários**
-- Navegação fluída e responsiva entre todas as telas
+- Cadastro, edição e exclusão de produtos
+- Cadastro de produtos com marcas específicas
+- Cadastro e autenticação de usuários
+- Navegação pelas telas de forma fluída  
 
 ---
 
@@ -20,7 +18,7 @@ Sistema web desenvolvido para arquitetos e escritórios de arquitetura que desej
 ### Backend
 - **Java**
 - **Firebase Authentication** 
-- **Firebase Firestore / Realtime Database**
+- **Firebase** 
 
 ### Frontend
 - **HTML**
@@ -28,15 +26,17 @@ Sistema web desenvolvido para arquitetos e escritórios de arquitetura que desej
 - **JavaScript**
 - **Bootstrap**
 
-### Ferramentas de Apoio
-- **Postman** – Testes de requisições
-- **Git/GitHub** – Versionamento e colaboração
+### Outros
+- **Postman** 
+- **Git/GitHub** 
 
 ---
 
-## 👥 Equipe de Desenvolvimento
+## 🧑‍💻 Equipe de Desenvolvimento
 
-- **Laís Lima**
-- **Matheus Alcântara** 
-- **João Gabriel** 
-- **Vinicius Santos** 
+- **Laís Lima** –  
+- **Matheus Alcatntara** – 
+- **João Gabriel** – 
+- **Vinicius Santos** – 
+
+---
