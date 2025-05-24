@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+contact-section {
+  flex: 1;
+}
+
+
+/* Navbar */
+.navbar-nav .nav-link {
+  color: #333;
+  font-weight: 500;
+  height: 100px;
+  
+}
+
+.navbar-nav .nav-link.active {
+  border-bottom: 2px solid #000;
+}
+
+/* Seção de Contato ocupa a altura da tela */
+.contact-section {
+  min-height: calc(90vh - 90px); /* 100px para considerar navbar */
+  display: flex;
+  
+}
+
+/* Títulos */
+.contact-section h5 {
+  font-size: 5.1rem;
+  letter-spacing: 5px;
+}
+
+.contact-section h2 {
+  font-size: 4.5rem;
+}
+
+
+/* Footer */
+footer h6 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Mapa */
+.map-container iframe {
+  width: 170%;
+  height: 630px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Faz com que a coluna do mapa ocupe a mesma altura que o texto */
+.map-container {
+  min-height: 150px;
+}
+
+/* Ajuste no Footer */
+footer {
+  margin-top: auto;
+}
