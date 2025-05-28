@@ -5,17 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Project Lorum</title>
   <link rel="stylesheet" href="/css/style.css" />
+  <script src="https://kit.fontawesome.com/9dce8a4fbd.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
-    <div class="logo">DA<br><span>Digital Project</span></div>
+    <div class="divlogo">
+      <img src="/img/imgIndex/logo.png" class="logo">
+    </div>
     <nav>
       <ul>
-        <li class="active">Main</li>
-        <li>Gallery</li>
-        <li>Projects</li>
-        <li>Certifications</li>
-        <li>Contacts</li>
+        <li class="active"><a href="galery.html" class="navbaritens">Main</a></li>
+        <li><a href="galery.html" class="navbaritens">Galery</a></li>
+        <li><a href="projects.html" class="navbaritens">Projects</a></li>
+        <li><a href="certifications.html" class="navbaritens">Certifications</a></li>
+        <li><a href="contacts.html" class="navbaritens">Contacts</a></li>
       </ul>
     </nav>
   </header>
@@ -32,7 +35,7 @@
     </div>
 
     <div class="image-area">
-      <img src="/img/Rectangle 6.png" alt="Modern Building" />
+      <img src="/img/imgIndex/Rectangle 6.png" alt="Modern Building" />
       <a href="#" class="view-project">View Project →</a>
     </div>
   </main>
@@ -40,22 +43,22 @@
   <section class="sectionAbout">
     <div class="centralizarImagens1e2">
     <div class="divimage1">
-      <img src="/img/imagePadrao.png" class="image1">
+      <img src="/img/imgIndex/imagePadrao.png" class="image1">
 
     </div>
         <div class="divimage2">
-          <img src="/img/image2.png" class="image2">
+          <img src="/img/imgIndex/image2.png" class="image2">
       
     </div>
     </div>
         <div class="divimage3">
-          <img src="/img/image3.png" class="image3">
+          <img src="/img/imgIndex/image3.png" class="image3">
       
     </div>
     <div class="divText">
       <h2 class="h2About">About</h2>
       <p class="pAbout">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-      <button class="buttonAbout"> READ MORE</button>
+      <a href="#" class="read-more">Read More →</a>
     </div>
   </section>
   <section class="sectionMainFocus">
@@ -72,17 +75,74 @@
     <h3 class="titleOPJ">Our Projects</h3>
     <p class="textSampleP">Sample Project</p>
     <div class="divImagensOBJ">
-      <p class="textSampleP">Sample Project</p>
-    <img src="/img/image1OPJ.png" class="image1OPJ">
-    <img src="/img/image2OPJ.png" class="image2OPJ">
-    <img src="/img/image3OPJ.png" class="image3OPJ">
-    <img src="/img/image4OPJ.png" class="image4OPJ">
-    <img src="/img/image5OPJ.png" class="image5OPJ">
+    <img src="/img/imgIndex/image1OPJ.png" class="image1OPJ">
+    <img src="/img/imgIndex/image2OPJ.png" class="image2OPJ">
+    <img src="/img/imgIndex/image3OPJ.png" class="image3OPJ">
+    <img src="/img/imgIndex/image4OPJ.png" class="image4OPJ">
+    <img src="/img/imgIndex/image4OPJ.png" class="image5OPJ">
     </div>
+      <button type="submit">
+    ALL PROJECTS →
+  </button>
   </section>
 
-</body>
-<footer>
+    <div class="divContact">
+<form class="contact-form">
+<div class="mb-3">
+  <input type="nome" class="form-control" id="exampleFormControlInput1" placeholder="Nome">
+  <input type="numero" class="form-control" id="exampleFormControlInput1" placeholder="Numero">
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  <input type="interesse" class="form-control" id="exampleFormControlInput1" placeholder="Interessado em:">
+  <input type="mensagem" class="form-control" id="exampleFormControlInput1" placeholder="Mensagem:">
+</div>
+  <button type="submit">
+    SEND EMAIL →
+  </button>
+</form>
+      <img src="/img/imgIndex/imageContact.png" class="imageContact">
+    </div>
 
+
+<footer>
+  <div class="list-container">
+     <div class="logoFooter">
+        <img src="/img/imgIndex/logoPB.png" width="145" height="94">
+      </div>
+    <div class="list-column">
+      <h4>Information</h4>
+      <ul>
+        <li>Main</li>
+        <li>Gallery</li>
+        <li>Projects</li>
+        <li>Certifications</li>
+        <li>Contacts</li>
+      </ul>
+    </div>
+
+<div class="list-column2">
+  <h4>Contacts</h4>
+  <ul>
+    <li><i class="fa-solid fa-location-dot"></i> 1234 Sample Street Austin Texas 78704</li>
+    <li><i class="fa-solid fa-phone"></i> (512) 333-2222</li>
+    <li><i class="fa-solid fa-envelope"></i> sampleemail@gmail.com</li>
+  </ul>
+</div>
+
+    <div class="list-column3">
+      <h4>Social Media</h4>
+      <ul>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-pinterest-p"></i>
+      </ul>
+    </div>
+  </div>
+    <div class="footer-direitos">
+    © 2021 All Rights Reserved
+  </div>
 </footer>
+
+</body>
+</html>
 </html>
