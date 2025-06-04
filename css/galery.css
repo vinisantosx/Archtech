@@ -134,7 +134,7 @@
     margin-bottom: 8px;
   }
   
-  /* Rodapé inferior */
+  
   footer::after {
     content: "\00A9 2019 All Rights Reserved.";
     display: block;
@@ -146,7 +146,7 @@
   }
 
 
-  /* Efeito ao passar o mouse */
+ 
 .photo:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
