@@ -132,6 +132,17 @@ nav ul li {
   margin-bottom: 5%;
 }
 
+  .footer-direitos {
+    background: #2C2C2C;
+    margin-top: 1px;
+    color: #aaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    font-size: 13px;
+  }
+
 /******APENAS PARA SEPARAR AS DIVs*******/
 .list-column2 {
   flex: 1 1 200px; /* Igual às outras colunas */

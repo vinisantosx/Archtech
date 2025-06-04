@@ -13,8 +13,6 @@ body {
   padding: 40px;
 }
 
-/* BASE */
-/* Estrutura base */
 header {
   display: flex;
   align-items: center;
@@ -439,7 +437,27 @@ top: 2199px;
   background-color: #444;
 }
 
+.button-wrapper1 {
+  margin-top: 30px;
+  margin-left: calc(10% + 850px); 
+}
 
+.button-wrapper1 button {
+  background-color: #2e2e2e;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding: 25px 40px;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+  transition: background-color 0.3s ease;
+}
+
+.button-wrapper1 button:hover {
+  background-color: #444;
+}
 
 /* Inicio da Seção Contact */
 
@@ -505,7 +523,7 @@ top: 2199px;
 
 .button-wrapper {
   margin-top: 30px;
-  margin-left: calc(10% + 0px); /* Ajuste para alinhar com os inputs */
+  margin-left: calc(10% + 0px); 
 }
 
 .button-wrapper button {
@@ -594,7 +612,7 @@ top: 2199px;
 
 /******APENAS PARA SEPARAR AS DIVs*******/
 .list-column2 {
-  flex: 1 1 200px; /* Igual às outras colunas */
+  flex: 1 1 200px; 
   padding: 0 10px;
   margin-top: 2%;
   margin-right: 8%;
@@ -624,6 +642,17 @@ top: 2199px;
   text-decoration: none;
   margin-right: 4%;
 }
+
+  .footer-direitos {
+    background: #2C2C2C;
+    margin-top: 1px;
+    color: #aaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    font-size: 13px;
+  }
 
 /******APENAS PARA SEPARAR AS DIVs*******/
 
@@ -657,11 +686,11 @@ top: 2199px;
   .list-container {
     flex-direction: column;
     align-items: center;
-    padding: 10px; /* menos espaçamento lateral */
+    padding: 10px;
   }
 
   .logoFooter {
-    margin: 0 0 20px 0; /* centralizar logo com espaçamento abaixo */
+    margin: 0 0 20px 0; 
   }
 
   .list-column,
@@ -694,12 +723,10 @@ top: 2199px;
     font-size: 18px;
   }
 
-  /* Ajuste de ícones se houver */
   .list-column3 ul i {
     margin-right: 6px;
   }
 
-  /* Ajuste para a seção de direitos */
   .footer-direitos {
     padding: 20px 10px;
     font-size: 13px;
