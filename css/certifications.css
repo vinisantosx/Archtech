@@ -193,45 +193,55 @@ nav ul li {
   color: #ccc;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
   .list-container {
     flex-direction: column;
     align-items: center;
+    padding: 10px; /* menos espaçamento lateral */
   }
 
-  .list-column {
+  .logoFooter {
+    margin: 0 0 20px 0; /* centralizar logo com espaçamento abaixo */
+  }
+
+  .list-column,
+  .list-column2,
+  .list-column3 {
+    flex: 1 1 100%;
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 15px 0;
     text-align: center;
-    margin-bottom: 30px;
   }
 
-  .list-column ul {
+  .list-column ul,
+  .list-column2 ul,
+  .list-column3 ul {
     list-style-position: inside;
+    padding-left: 0;
+  }
+
+  .list-column ul li,
+  .list-column2 ul li,
+  .list-column3 ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .list-column h4,
+  .list-column2 h4,
+  .list-column3 h4 {
+    font-size: 18px;
+  }
+
+  /* Ajuste de ícones se houver */
+  .list-column3 ul i {
+    margin-right: 6px;
+  }
+
+  /* Ajuste para a seção de direitos */
+  .footer-direitos {
+    padding: 20px 10px;
+    font-size: 13px;
   }
 }
-
-
-    @media (max-width: 768px) {
-      .footer-container {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-      }
-
-      .footer-column {
-        margin: 20px 0;
-      }
-
-      .footer-column ul li {
-        font-size: 16px;
-      }
-    }
-
-        .footer-direitos {
-      background-color: #2C2C2C;
-      text-align: center;
-      padding: 30px;
-      border-top: 1px solid #444;
-      font-size: 12px;
-      color: #aaa;
-    }

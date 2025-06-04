@@ -9,22 +9,25 @@
   <script src="https://kit.fontawesome.com/9dce8a4fbd.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header>
-    <div class="divlogo">
-      <a href="index.html">
-      <img src="/img/imgIndex/logo.png" class="logo">
-      </a>
-    </div>
-    <nav>
-      <ul>
-        <li class="active"><a href="#sectionAbout" class="navbaritens">Main</a></li>
-        <li><a href="galery.html" class="navbaritens">Galery</a></li>
-        <li><a href="projects.html" class="navbaritens">Projects</a></li>
-        <li><a href="certifications.html" class="navbaritens">Certifications</a></li>
-        <li><a href="contacts.html" class="navbaritens">Contacts</a></li>
-      </ul>
-    </nav>
-  </header>
+<header>
+  <a href="index.html" class="divlogo">
+    <img src="/img/imgIndex/logo.png" class="logo" alt="Logo">
+  </a>
+
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+  <label for="menu-toggle" class="menu-icon">☰</label>
+
+  <nav class="menu">
+    <ul>
+      <li><a href="#sectionAbout" class="navbaritens">Main</a></li>
+      <li><a href="galery.html" class="navbaritens">Galery</a></li>
+      <li><a href="projects.html" class="navbaritens">Projects</a></li>
+      <li><a href="certifications.html" class="navbaritens">Certifications</a></li>
+      <li><a href="contacts.html" class="navbaritens">Contacts</a></li>
+    </ul>
+  </nav>
+</header>
+
 
   <main class="project-section">
     <div class="text-area">
@@ -77,33 +80,42 @@
   <section class="ourProjects">
     <h3 class="titleOPJ">Our Projects</h3>
     <p class="textSampleP">Sample Project</p>
-    <div class="divImagensOBJ">
+    <div  class="divImagensOBJ">
     <img src="/img/imgIndex/image1OPJ.png" class="image1OPJ">
     <img src="/img/imgIndex/image2OPJ.png" class="image2OPJ">
     <img src="/img/imgIndex/image3OPJ.png" class="image3OPJ">
     <img src="/img/imgIndex/image4OPJ.png" class="image4OPJ">
-    <img src="/img/imgIndex/image4OPJ.png" class="image5OPJ">
+    <img src="/img/imgIndex/image5OPJ.png" class="image5OPJ">
     </div>
       <button type="submit">
     ALL PROJECTS →
   </button>
   </section>
 
-    <div class="divContact">
-<form class="contact-form">
-<div class="mb-3">
-  <input type="nome" class="form-control" id="exampleFormControlInput1" placeholder="Nome">
-  <input type="numero" class="form-control" id="exampleFormControlInput1" placeholder="Numero">
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-  <input type="interesse" class="form-control" id="exampleFormControlInput1" placeholder="Interessado em:">
-  <input type="mensagem" class="form-control" id="exampleFormControlInput1" placeholder="Mensagem:">
-</div>
-  <button type="submit">
-    SEND EMAIL →
-  </button>
-</form>
-      <img src="/img/imgIndex/imageContact.png" class="imageContact">
+<div class="contact-wrapper">
+  <h4>Contact Us</h4>
+
+  <div class="divContact">
+    <form class="contact-form">
+      <input type="text" class="form-control" placeholder="Nome" />
+      <input type="text" class="form-control" placeholder="Número" />
+      <input type="email" class="form-control" placeholder="Email" />
+      <input type="text" class="form-control" placeholder="Interessado em:" />
+      <textarea class="form-controlMensagem" placeholder="Mensagem:"></textarea>
+    </form>
+
+    <div class="image-wrapper">
+      <img src="/img/imgIndex/imageContact.png" alt="Contato" class="imageContact" />
     </div>
+  </div>
+
+  <!-- Botão separado -->
+  <div class="button-wrapper">
+    <button>SEND EMAIL →</button>
+  </div>
+</div>
+
+
 
 
 <footer>
