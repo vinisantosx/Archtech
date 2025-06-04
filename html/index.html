@@ -3,26 +3,31 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Project Lorum</title>
-<<<<<<< HEAD
+  <title>Digital Project</title>
   <link rel="stylesheet" href="/css/style.css" />
-=======
-  <link rel="stylesheet" href="style.css" />
->>>>>>> 9e8fd30b7372202557a68ce6df3783e84bfcec32
+  <link rel="icon" type="image/png" href="/img/imgIndex/logoPB.png" width="34px" height="34px">
+  <script src="https://kit.fontawesome.com/9dce8a4fbd.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header>
-    <div class="logo">DA<br><span>Digital Project</span></div>
-    <nav>
-      <ul>
-        <li class="active">Main</li>
-        <li>Gallery</li>
-        <li>Projects</li>
-        <li>Certifications</li>
-        <li>Contacts</li>
-      </ul>
-    </nav>
-  </header>
+<header>
+  <a href="index.html" class="divlogo">
+    <img src="/img/imgIndex/logo.png" class="logo" alt="Logo">
+  </a>
+
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+  <label for="menu-toggle" class="menu-icon">☰</label>
+
+  <nav class="menu">
+    <ul>
+      <li><a href="#sectionAbout" class="navbaritens">Main</a></li>
+      <li><a href="galery.html" class="navbaritens">Galeria</a></li>
+      <li><a href="projects.html" class="navbaritens">Projetos</a></li>
+      <li><a href="certifications.html" class="navbaritens">Certificados</a></li>
+      <li><a href="contacts.html" class="navbaritens">Contatos</a></li>
+    </ul>
+  </nav>
+</header>
+
 
   <main class="project-section">
     <div class="text-area">
@@ -36,43 +41,122 @@
     </div>
 
     <div class="image-area">
-<<<<<<< HEAD
-      <img src="/img/Rectangle 6.png" alt="Modern Building" />
-      <a href="#" class="view-project">View Project →</a>
+      <img src="/img/imgIndex/Rectangle 6.png" alt="Modern Building" />
+      <a href="projects.html" class="view-project">VIEW PROJECT →</a>
     </div>
   </main>
 
-  <section class="sectionAbout">
+  <section id="sectionAbout">
     <div class="centralizarImagens1e2">
     <div class="divimage1">
-      <img src="/img/image1.png" class="image1">
+      <img src="/img/imgIndex/imagePadrao.png" class="image1">
 
     </div>
         <div class="divimage2">
-          <img src="/img/image2.png" class="image2">
+          <img src="/img/imgIndex/image2.png" class="image2">
       
     </div>
     </div>
         <div class="divimage3">
-          <img src="/img/image3.png" class="image3">
+          <img src="/img/imgIndex/image3.png" class="image3">
       
     </div>
     <div class="divText">
-      <h2 class="h2About">About</h2>
+      <h2 class="h2About">Sobre</h2>
       <p class="pAbout">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-      <button class="buttonAbout"> READ MORE</button>
+      <a href="#" class="read-more">Read More →</a>
+    </div>
+  </section>
+  <section class="sectionMainFocus">
+    <p class="title">Foco Principal</p>
+    <div class="divNumeroETexto">
+      <p class="pNumero">1</p>
+      <p class="pText">O Digital Project é uma plataforma digital desenvolvida especialmente para profissionais e escritórios de arquitetura que buscam otimizar o planejamento, controle e execução de seus projetos. Nosso sistema oferece uma solução completa para o gerenciamento de obras, cronogramas, equipes e documentos, tudo em um único ambiente online, seguro e fácil de usar.</p>
+      <p class="pNumero">2</p>
+      <p class="pText">Nossa missão é transformar a gestão de projetos arquitetônicos, oferecendo uma plataforma intuitiva e eficiente que conecte profissionais, promova a organização e facilite a tomada de decisões. Acreditamos que tecnologia e arquitetura caminham juntas para criar soluções sustentáveis, criativas e bem executadas.</p>
     </div>
   </section>
 
-</body>
+  <section class="ourProjects">
+    <h3 class="titleOPJ">Projetos</h3>
+    <div  class="divImagensOBJ">
+    <img src="/img/imgIndex/image1OPJ.png" class="image1OPJ">
+    <img src="/img/imgIndex/image2OPJ.png" class="image2OPJ">
+    <img src="/img/imgIndex/image3OPJ.png" class="image3OPJ">
+    <img src="/img/imgIndex/image4OPJ.png" class="image4OPJ">
+    <img src="/img/imgIndex/image5OPJ.png" class="image5OPJ">
+    </div>
+        <div class="button-wrapper1">
+    <a href="projects.html">Outros Projetos →</a>
+  </div>
+  </section>
+
+<div class="contact-wrapper">
+  <h4>Fale Conosco</h4>
+
+  <div class="divContact">
+    <form class="contact-form">
+      <input type="text" class="form-control" placeholder="Nome" />
+      <input type="text" class="form-control" placeholder="Número" />
+      <input type="email" class="form-control" placeholder="Email" />
+      <input type="text" class="form-control" placeholder="Interessado em:" />
+      <textarea class="form-controlMensagem" placeholder="Mensagem:"></textarea>
+    </form>
+
+    <div class="image-wrapper">
+      <img src="/img/imgIndex/imageContact.png" alt="Contato" class="imageContact" />
+    </div>
+  </div>
+
+  <div class="button-wrapper">
+    <button>ENVIAR EMAIL →</button>
+  </div>
+</div>
+
+
+
+
 <footer>
+  <div class="list-container">
+     <div class="logoFooter">
+        <img src="/img/imgIndex/logoPB.png" width="115px" height="74px">
+      </div>
+    <div class="list-column">
+      <h4>Informações</h4>
+      <ul>
+        <li>Main</li>
+        <li>Galeria</li>
+        <li>Projetos</li>
+        <li>Certificados</li>
+        <li>Contatos</li>
+      </ul>
+    </div>
+
+<div class="list-column2">
+  <h4>Contatos</h4>
+  <ul>
+    <li><i class="fa-solid fa-location-dot"></i> 1234 Sample Street Austin Texas 78704</li>
+    <li><i class="fa-solid fa-phone"></i> (512) 333-2222</li>
+    <li><i class="fa-solid fa-envelope"></i> sampleemail@gmail.com</li>
+  </ul>
+</div>
+
+    <div class="list-column3">
+      <h4>Mídia Social</h4>
+      <ul>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-pinterest-p"></i>
+      </ul>
+    </div>
+  </div>
+      <div class="footer-direitos">
+    <p>© 2021 All Rights Reserved</p>
+  </div>
 
 </footer>
-=======
-      <img src="img/Rectangle 6.png" alt="Modern Building" />
-      <a href="#" class="view-project">View Project →</a>
-    </div>
-  </main>
+
 </body>
->>>>>>> 9e8fd30b7372202557a68ce6df3783e84bfcec32
+</html>
 </html>
